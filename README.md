@@ -15,8 +15,7 @@ A CHIP-8 Emulator in golang
   go run main.go -f /path/to/rom
   ```
 
-* Reload game
-  Press 'l' or 'L'
+* Reload game: press 'l' or 'L'
 
 
 ## Key Mapping
