@@ -103,7 +103,7 @@ func (c *Chip8) pressedAnyKey() uint8 {
 }
 
 func (c *Chip8) execute(op uint16) {
-	hexa := op & 0xF000
+	hex := op & 0xF000
 	nnn := op & 0x0FFF
 	nn := uint8(nnn & 0xFF)
 	x := uint8((nnn >> 8) & 0xF)
